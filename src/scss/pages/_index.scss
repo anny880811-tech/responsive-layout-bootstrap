@@ -1,0 +1,33 @@
+.navbr-custom {
+  height: 64px;
+  border-bottom: 5px solid $warning ;
+  background-color: white;
+
+  @include media-breakpoint-up(xxl) {
+    height: 72px;
+  }
+}
+
+.produt-custom {
+  display: block;
+  width: 351px;
+  height: 238.2px;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(xxl) {
+    width: 641px;
+    height: 441.3px;
+    margin-left: -12px;
+  }
+}
+
+.progress-bar-custom {
+  background-color: #EEEEEE;
+  width: 351px;
+  height: 16px;
+  border-radius: 8px;
+
+  @include media-breakpoint-up(xxl) {
+    width: 451px;
+  }
+}
