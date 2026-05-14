@@ -9,6 +9,7 @@
 }
 
 .produt-custom {
+  border-radius: 2rem;
   display: block;
   width: 351px;
   height: 238.2px;
@@ -30,4 +31,37 @@
   @include media-breakpoint-up(xxl) {
     width: 451px;
   }
+}
+
+.icon-custom {
+
+  @include media-breakpoint-up(xxl) {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.content-custom {
+  width: 351px;
+  height: 92.1px;
+  background-color: white;
+
+  border-radius: 8px;
+  border-left: 3px solid $warning;
+
+  display: flex;
+  align-items: center;
+
+
+  @include media-breakpoint-up(xxl) {
+    width: 450px;
+    height: 76px;
+  }
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-between;
+  width: 452px;
 }
