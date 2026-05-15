@@ -22,8 +22,17 @@
 .btn-l {
   height: 44px;
 
-  @include media-breakpoint-up(xxl) {
+  @include media-breakpoint-up(lg) {
     height: 52px;
+  }
+}
+
+.btn-sponsor {
+  width: 351px;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 452px;
+    width: 100%;
   }
 }
 
@@ -33,6 +42,7 @@
 
 .btn-s {
   height: 38px;
+  width: 96px;
 }
 
 .outline {
@@ -58,4 +68,8 @@
   height: 22px;
   font-size: 12px;
   font-weight: 500;
+}
+
+.tag-1 {
+  width: 80px;
 }

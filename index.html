@@ -11,9 +11,9 @@
 <body>
   <div id="app">
     <nav class="navbar navbar-expand-lg navbr-custom">
-      <div class="container" style="max-width:1118px;">
+      <div class="container">
         <a class="navbar-brand me-3" href="#">
-          <img src="./src/assets/logo.jpg" alt="" srcset="" style="width: 111px; height: 40px;">
+          <img src="./src/assets/logo.jpg" class="logo-custom" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,55 +32,59 @@
             </li>
           </ul>
           <form class="d-flex gap-3">
-            <button class="btn-custom btn-s" type="submit" style="width: 96px;">登入</button>
-            <button class="btn-custom btn-s outline" type="submit" style="width: 96px;">註冊</button>
+            <button class="btn-custom btn-s" type="submit">登入</button>
+            <button class="btn-custom btn-s outline" type="submit">註冊</button>
           </form>
         </div>
       </div>
     </nav>
-    <div class="container pt-5" style="max-width:1118px;">
+    <div class="container pt-5">
       <div>
-        <button class="tag-custom mb-2" style="width: 80px;">魔法科技</button>
+        <button class="tag-custom tag-1 mb-2">魔法科技</button>
         <h1>拍出會動的照片｜LivePhotos 魔法拍立得</h1>
       </div>
       <div class="row pt-4">
-        <div class="col-12 col-xxl-7">
-          <img src="./src/assets/produt_image.jpg" class="produt-custom" alt="" srcset="">
+        <div class="col-12 col-lg-7">
+          <img src="./src/assets/produt_image.jpg" class="product-custom" alt="" srcset="">
         </div>
-        <div class="col-12 col-xxl-5 mt-xxl-0 mt-3">
-          <p class="fs-6">目標 $600,000</p>
-          <h2>$280,047</h2>
-          <div class="progress-bar-custom mb-3"></div>
-          <div class="d-flex gap-5">
-            <div>
-              <p class="fs-6">贊助人數</p>
-              <h2>1374 人</h2>
+        <div class="col-12 col-lg-5 mt-lg-0 mt-3">
+          <div class="introduce-custom">
+            <p class="fs-6">目標 $600,000</p>
+            <h2>$280,047</h2>
+            <div class="progress-bar-custom mb-3"></div>
+            <div class="d-flex gap-5">
+              <div>
+                <p class="fs-6">贊助人數</p>
+                <h2>1374 人</h2>
+              </div>
+              <div>
+                <p class="fs-6">募資倒數</p>
+                <h2>27 天</h2>
+              </div>
             </div>
-            <div>
-              <p class="fs-6">募資倒數</p>
-              <h2>27 天</h2>
+            <div class="icon-custom">
+              <img src="./src/assets/icon_good01.svg" alt="">
+              <span class="fs-7 me-3 d-inline d-lg-none">認證標章</span>
+              <img src="./src/assets/icon_good02.svg" alt="">
+              <span class="fs-7 me-3 d-inline d-lg-none">品質保證</span>
+              <img src="./src/assets/icon_good03.svg" alt="">
+              <span class="fs-7 me-3 d-inline d-lg-none">原生創意</span>
+              <img src="./src/assets/icon_good04.svg" alt="">
+              <span class="fs-7 me-3 d-inline d-lg-none">人氣王</span>
+            </div>
+            <div class="content-custom mt-3">
+              <div class="p-3">
+                專案募資中！<br>
+                在 2026/06/14 23:59 募資結束前，您都可以贊助我們！
+              </div>
             </div>
           </div>
-          <div class="icon-custom">
-            <img src="./src/assets/icon_good01.svg" alt="">
-            <span class="fs-7 me-3 d-inline d-xxl-none">認證標章</span>
-            <img src="./src/assets/icon_good02.svg" alt="">
-             <span class="fs-7 me-3 d-inline d-xxl-none">品質保證</span>
-            <img src="./src/assets/icon_good03.svg" alt="">
-             <span class="fs-7 me-3 d-inline d-xxl-none">原生創意</span>
-            <img src="./src/assets/icon_good04.svg" alt="">
-             <span class="fs-7 me-3 d-inline d-xxl-none">人氣王</span>
-          </div>
-          <div class="content-custom mt-3">
-            <div class="p-3">
-              專案募資中！<br>
-              在 2026/06/14 23:59 募資結束前，您都可以贊助我們！
-            </div>
-          </div>
-          <button class="btn btn-custom btn-l mt-4" style="width:452px;">贊助專案</button>
+          <button class="btn btn-custom btn-l btn-sponsor mt-4">贊助專案</button>
           <div class="mt-2 button-group">
-            <button class="btn btn-custom outline btn-l me-2" style="width:269px;"><i class="bi bi-heart-fill me-2"></i>追蹤專案</button>
-            <button class="btn btn-custom outline btn-l" style="width:174px;"><i class="bi bi-share-fill me-2"></i>分享</button>
+            <button class="btn btn-custom outline btn-l btn-left"><i
+                class="bi bi-heart-fill me-2"></i>追蹤專案</button>
+            <button class="btn btn-custom outline btn-l btn-right"><i
+                class="bi bi-share-fill me-2"></i>分享</button>
           </div>
         </div>
       </div>
