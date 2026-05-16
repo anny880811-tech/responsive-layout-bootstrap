@@ -5,9 +5,13 @@ body {
 
 body {
   color: #494846;
-  background-color: $light;
+  background-color: white;
 }
 
 .fs-7 {
   font-size: 0.75rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 64px;
 }
