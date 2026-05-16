@@ -36,6 +36,17 @@
   }
 }
 
+.btn-form {
+  width: 100%;
+  display: flex;
+  margin: auto;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 176px;
+    width: 100%;
+  }
+}
+
 .button-group {
   display: flex;
   justify-content: space-between;
@@ -49,24 +60,25 @@
 }
 
 .btn-left {
-  flex:1;
+  flex: 1;
   margin-right: 8px;
 
   @include media-breakpoint-up(lg) {
-    flex:6;
+    flex: 6;
   }
 }
 
 .btn-right {
-  flex:1;
+  flex: 1;
 
   @include media-breakpoint-up(lg) {
-    flex:4;
+    flex: 4;
   }
 }
 
 .btn-m {
   height: 42px;
+  width: 100%;
 }
 
 .btn-s {
@@ -115,4 +127,14 @@
 
 .tag-1 {
   width: 80px;
+}
+
+.tag-left {
+  width: 107px;
+  background-color: #E8E8DB;
+  color: $secondary;
+}
+
+.tag-right {
+  width: 90px;
 }
