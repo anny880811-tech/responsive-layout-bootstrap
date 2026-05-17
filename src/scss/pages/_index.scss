@@ -27,6 +27,7 @@
   @include media-breakpoint-up(lg) {
     max-width: 641px;
     height: auto;
+    //margin: 0;
     margin-right: 0;
   }
 }
@@ -86,6 +87,23 @@
   @include media-breakpoint-up(lg) {
     height: 70px;
   }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      justify-content: flex-start;
+    }
+
+    .nav-link {
+      @include media-breakpoint-up(lg) {
+        margin-right: 32px;
+      }
+    }
+  }
 }
 
 .product-area2 {
@@ -94,7 +112,6 @@
   justify-content: center;
 
   @include media-breakpoint-up(lg) {
-    max-width: 1116px;
     margin: auto;
   }
 
@@ -283,16 +300,18 @@
 
   width: 100%;
   height: 54px;
-  background-color: #494846 ;
+  background-color: #494846;
 
   @include media-breakpoint-up(lg) {
     height: 88px;
   }
-.footer-main{
-  font-size: 14px;
-  color: white;
-@include media-breakpoint-up(lg) {
-    font-size: 16px;
+
+  .footer-main {
+    font-size: 14px;
+    color: white;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 16px;
+    }
   }
-}
 }
